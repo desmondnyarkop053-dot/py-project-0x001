@@ -1,0 +1,38 @@
+{
+  "students": {
+    "1": {
+      "id": 1,
+      "name": "Test Student",
+      "age": 16
+    },
+    "4": {
+      "id": 4,
+      "name": "desmond",
+      "age": 32
+    }
+  },
+  "teachers": {
+    "2": {
+      "id": 2,
+      "name": "Test Teacher",
+      "subject": "History"
+    }
+  },
+  "courses": {
+    "3": {
+      "id": 3,
+      "name": "World History",
+      "teacher_id": 2,
+      "students": [
+        1
+      ]
+    },
+    "5": {
+      "id": 5,
+      "name": "computer hardware and software",
+      "teacher_id": null,
+      "students": []
+    }
+  },
+  "_next_id": 6
+}
